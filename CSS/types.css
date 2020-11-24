@@ -1,0 +1,75 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.mainimage{
+   width: 100%;
+   height: auto;
+}
+
+h2{
+   margin: 40px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin-bottom: 20px;  
+}
+
+p{
+   font-family: 'Times New Roman', Times, serif;
+   text-align: left;
+   font-size: 18px;
+   line-height: 30px;
+   margin: 40px;
+   margin-top: 10px;
+   
+   font-style: oblique;
+}
+
+table{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#ttypes{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   border-collapse: collapse;
+   width: 75%;
+}
+
+#ttypes td, #ttypes th{
+   border: 1px solid #ddd;
+   padding: 8px;
+   line-height: 30px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 15px;
+   
+}
+
+#ttypes tr:nth-child(even){
+   background-color: #f2f2f2;
+}
+
+#ttypes tr:hover{
+   background-color: #ddd;
+}
+
+#ttypes th{
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: rgb(0, 56, 5);
+   color: rgb(237, 238, 250);
+}
+
+#ttypes td{
+   text-align: center;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   font-size: 18px;
+}
+
+
+
+
+
+
+

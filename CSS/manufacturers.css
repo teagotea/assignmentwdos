@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+body{
+    background-image: linear-gradient(rgba(96, 113, 128, 0.5),rgba(96, 113, 128, 0.5)), url(../Images/imagemaintea.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position:  center center;
+    background-attachment: fixed;
+}
+
+ h2{
+    margin: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 39px;
+    color: rgb(39, 151, 14);
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 40px;
+    
+ }
+ 
+ p.a{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size:  25px;
+    line-height: 37px;
+    margin: 40px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    text-align: left;
+    margin-bottom: 8em;
+ }
+
+ .boxara{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.genbox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: auto;
+    border-radius: 5px;
+    background-color: rgb(24, 47, 70);
+    text-align: center;
+    margin: 25px;
+    padding: 20px;
+    transition: 0.6s;
+    margin-bottom: 8em;
+}
+
+.img-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 2%;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.genbox:nth-child(1) .img-area{
+    background-image: url(../Images/dilmahfac.jpg);
+}
+
+.genbox:nth-child(2) .img-area{
+    background-image: url(../Images/damrofac.jpg);
+}
+
+.genbox:nth-child(3) .img-area{
+    background-image: url(../Images/venturefac.jpg);
+}
+
+.header-text{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 48px;
+    color: rgb(13, 169, 180);
+}
+
+.img-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 15px;
+}
+
+.img-text p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(49, 119, 160);
+}
+
+.button{
+    padding: .8em;
+    background-color: teal;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin: .8em auto .8em 0; 
+    transition: 0.8s ease;         
+    color: aliceblue;    
+}
+
+.button:hover{
+    background-color: rgb(233, 124, 73);
+}
+
+h1.b{
+    color: white;
+    font-style: normal;
+    text-shadow: 4px 4px 4px #000000;
+    font-size: 45px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 40px;
+}
+
+.butoncontainer{
+  width: 100%;
+    height: auto;
+
+}
+.buttn{
+  background: rgb(7, 128, 128);
+  width: 160px;
+  padding: 20px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(240, 240, 240);
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.buttn:hover{
+  background: rgb(211, 133, 78);
+}
